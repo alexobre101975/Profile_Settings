@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20221011 15:31:50.279" rpa="false" schemaversion="2">
+<suite id="s1" name="NGG-TC-40-41 Enter home  WindowSettings" source="C:\Users\Alejandro\Desktop\Profile_Settings\NGG-TC-40-41 Enter home_ WindowSettings.robot">
+<kw name="Open App" library="NGG-TC-40-41 Keywords" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${url}</arg>
+<arg>platformName=${PlatFormName}</arg>
+<arg>platformVersion=${PlatFormVersion}</arg>
+<arg>deviceName=${DeviceName}</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=2500</arg>
+<arg>noReset=True</arg>
+<arg>activateName=${Activity_NAME}</arg>
+<arg>packageName=${PACKAGE_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20221011 15:31:50.559" endtime="20221011 15:32:05.686"/>
+</kw>
+<status status="PASS" starttime="20221011 15:31:50.558" endtime="20221011 15:32:05.687"/>
+</kw>
+<test id="s1-t1" name="Automation Profile_Settings">
+<kw name="Open App" library="NGG-TC-40-41 Keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${url}</arg>
+<arg>platformName=${PlatFormName}</arg>
+<arg>platformVersion=${PlatFormVersion}</arg>
+<arg>deviceName=${DeviceName}</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=2500</arg>
+<arg>noReset=True</arg>
+<arg>activateName=${Activity_NAME}</arg>
+<arg>packageName=${PACKAGE_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20221011 15:32:05.688" endtime="20221011 15:32:22.073"/>
+</kw>
+<status status="PASS" starttime="20221011 15:32:05.688" endtime="20221011 15:32:22.074"/>
+</kw>
+<kw name="Home-Settings" library="NGG-TC-40-41 Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:22.074" endtime="20221011 15:32:23.299"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:23.299" endtime="20221011 15:32:33.507"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:33.507" endtime="20221011 15:32:37.137"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:37.137" endtime="20221011 15:32:38.248"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:38.248" endtime="20221011 15:32:42.183"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:42.183" endtime="20221011 15:32:43.927"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:43.927" endtime="20221011 15:32:46.797"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>Settings</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:46.908" level="INFO">Element 'id=com.sentrics.engage360:id/tvAppName' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:46.797" endtime="20221011 15:32:46.908"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:46.908" endtime="20221011 15:32:47.038"/>
+</kw>
+<status status="PASS" starttime="20221011 15:32:22.074" endtime="20221011 15:32:47.038"/>
+</kw>
+<kw name="Enter Windows Settings" library="NGG-TC-40-41 Keywords">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:47.039" endtime="20221011 15:32:50.298"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>TV Preferences</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:50.420" level="INFO">Element 'id=com.sentrics.engage360:id/tvAppName' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:50.298" endtime="20221011 15:32:50.421"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:50.421" endtime="20221011 15:32:50.531"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUpdateVersion</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:50.531" endtime="20221011 15:32:52.298"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUpdateVersion</arg>
+<arg>UPDATE TV GUIDE</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:52.445" level="INFO">Element 'id=com.sentrics.engage360:id/btnUpdateVersion' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:52.299" endtime="20221011 15:32:52.445"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:52.446" endtime="20221011 15:32:52.557"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:52.557" endtime="20221011 15:32:53.455"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:53.455" endtime="20221011 15:32:53.518"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:53.518" endtime="20221011 15:32:54.186"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>Remote Preferences</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:54.286" level="INFO">Element 'id=com.sentrics.engage360:id/tvAppName' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:54.186" endtime="20221011 15:32:54.286"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:54.287" endtime="20221011 15:32:54.385"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnFav1ChangeAction</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:54.385" endtime="20221011 15:32:56.055"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnFav1ChangeAction</arg>
+<arg>Change Action</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:56.132" level="INFO">Element 'id=com.sentrics.engage360:id/btnFav1ChangeAction' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:56.055" endtime="20221011 15:32:56.132"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:56.132" endtime="20221011 15:32:56.253"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:56.254" endtime="20221011 15:32:57.134"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:57.135" endtime="20221011 15:32:57.202"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:57.202" endtime="20221011 15:32:57.801"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:57.801" endtime="20221011 15:32:58.474"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>Network Info</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:32:58.584" level="INFO">Element 'id=com.sentrics.engage360:id/tvAppName' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:32:58.475" endtime="20221011 15:32:58.585"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:32:58.585" endtime="20221011 15:32:58.672"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnSyncResident</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:32:58.672" endtime="20221011 15:33:00.342"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnSyncResident</arg>
+<arg>RESIDENT UPDATE</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:33:00.444" level="INFO">Element 'id=com.sentrics.engage360:id/btnSyncResident' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:33:00.342" endtime="20221011 15:33:00.444"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:33:00.444" endtime="20221011 15:33:00.565"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:33:00.565" endtime="20221011 15:33:01.567"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:33:01.568" endtime="20221011 15:33:01.639"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:33:01.639" endtime="20221011 15:33:02.343"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<arg>My Preferences</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:33:02.461" level="INFO">Element 'id=com.sentrics.engage360:id/tvAppName' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:33:02.343" endtime="20221011 15:33:02.462"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:33:02.462" endtime="20221011 15:33:02.588"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUpdateLanguage</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:33:02.588" endtime="20221011 15:33:04.211"/>
+</kw>
+<kw name="Element Should Be Enabled" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUpdateLanguage</arg>
+<arg>CHANGE</arg>
+<doc>Verifies that element identified with locator is enabled.</doc>
+<msg timestamp="20221011 15:33:04.288" level="INFO">Element 'id=com.sentrics.engage360:id/btnUpdateLanguage' is enabled .</msg>
+<status status="PASS" starttime="20221011 15:33:04.211" endtime="20221011 15:33:04.289"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:33:04.289" endtime="20221011 15:33:04.406"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221011 15:33:04.407" endtime="20221011 15:33:05.321"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221011 15:33:05.321" endtime="20221011 15:33:05.453"/>
+</kw>
+<status status="PASS" starttime="20221011 15:32:47.039" endtime="20221011 15:33:05.453"/>
+</kw>
+<status status="PASS" starttime="20221011 15:32:05.687" endtime="20221011 15:33:05.453"/>
+</test>
+<kw name="Close All Applications" library="AppiumLibrary" type="TEARDOWN">
+<doc>Closes all open applications.</doc>
+<status status="PASS" starttime="20221011 15:33:05.455" endtime="20221011 15:33:05.594"/>
+</kw>
+<status status="PASS" starttime="20221011 15:31:50.281" endtime="20221011 15:33:05.595"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="NGG-TC-40-41 Enter home  WindowSettings">NGG-TC-40-41 Enter home  WindowSettings</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
